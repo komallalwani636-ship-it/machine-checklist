@@ -1,6 +1,5 @@
-// API URL - points to our Express backend
-// In production this will be the Render URL
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001'
+// API URL - points to our Express backend on Render
+const API_URL = 'https://machine-checklist.onrender.com'
 
 export async function query(sql, params = []) {
   const response = await fetch(`${API_URL}/api/query`, {
