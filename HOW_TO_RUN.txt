@@ -1,0 +1,57 @@
+╔══════════════════════════════════════════════════════╗
+║         WEB APP - HOW TO RUN                         ║
+╚══════════════════════════════════════════════════════╝
+
+STEP 1: Install Node.js (one time only)
+  → Go to: https://nodejs.org
+  → Download "LTS" version
+  → Install it
+
+STEP 2: Open Command Prompt
+  → Press Windows + R
+  → Type: cmd
+  → Press Enter
+
+STEP 3: Navigate to webapp folder
+  cd "C:\Users\Administrator\Desktop\mama project\webapp"
+
+STEP 4: Install dependencies (one time only)
+  npm install
+
+STEP 5: Run the web app
+  npm run dev
+
+STEP 6: Open in browser
+  → Go to: http://localhost:3000
+  → App is running!
+
+═══════════════════════════════════════════════════════
+
+TO SHARE WITH OTHERS (Deploy online FREE):
+
+  Option A: Vercel (Recommended)
+  1. Go to https://vercel.com
+  2. Sign up with GitHub
+  3. Upload webapp folder
+  4. Get a URL like: https://machine-checklist.vercel.app
+  5. Share URL with anyone!
+
+  Option B: Netlify
+  1. Go to https://netlify.com
+  2. Drag & drop webapp/dist folder
+  3. Get a URL instantly
+
+  To build for deployment:
+  npm run build
+  → Output in webapp/dist folder
+
+═══════════════════════════════════════════════════════
+
+FEATURES:
+  ✅ All 17 checklists
+  ✅ Excel-like editor
+  ✅ Add/remove rows & columns
+  ✅ Save to Neon database
+  ✅ Export Excel & PDF
+  ✅ Report history
+  ✅ Works on desktop & mobile browser

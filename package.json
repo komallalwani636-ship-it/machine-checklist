@@ -1,0 +1,29 @@
+{
+  "name": "machine-checklist-webapp",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "node server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^0.9.0",
+    "cors": "^2.8.5",
+    "date-fns": "^3.3.1",
+    "express": "^4.18.2",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.8.2",
+    "pg": "^8.20.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.1.3"
+  }
+}
